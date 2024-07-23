@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./time.css">
+  </head>
+  <body>
+    <div class="time">
+      <div id="hours">
+        <div class="hour"></div>
+      </div>:
+      <div id="min">
+        <div class="mi"></div>
+      </div>:
+      <div id="sec">
+        <div class="se"></div>
+      </div>:
+      <div id="ms">
+        <div class="m"></div>
+      </div>
+    </div>
+  </body>
+  <script>
+    let a = new Date().getHours();
+    let b = new Date().getMinutes();
+    let c = new Date().getSeconds();
+    let d = new Date().getMilliseconds();
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+    let y = document.getElementById("hours");
+    n = document.getElementById("min");
+    z = document.getElementById("sec");
+    m = document.getElementById("ms");
+
+    y.innerHTML=a;
+    n.innerHTML=b;
+    z.innerHTML=c;
+    m.innerHTML=d;
+
+  </script>
+</html>
+ 

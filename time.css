@@ -1,0 +1,24 @@
+body {
+    border: 2px black solid;
+  }
+  .time {
+    display: flex;
+    border: 1px black solid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 270px;
+    height: 150px;
+  }
+  .hour {
+    border: 2px black solid;
+  }
+  .mi {
+    border: 2px black solid;
+  }
+  .se {
+    border: 2px black solid;
+  }
+  .m {
+    border: 2px black solid;
+  }
